@@ -1,0 +1,85 @@
+html {
+    background-color:  rgb(18, 5, 43);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+p.headertext{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+}
+div.monitor, div.mutations_active, div.mutation_passive{
+    height: 100%;
+    height: 500px;  
+    float:left;
+    
+}
+div.monitor{
+    text-align: center;
+
+
+    background-color: rgb(40, 8, 114);
+    width: 50%;
+    border: 5px solid black;
+
+}
+div.mutations_active, div.mutation_passive{
+    position: relative;
+    background-color: rgb(40, 8, 114);
+    width: 20%;
+    border: 5px solid black;
+
+}
+div.enhancement{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color: rgb(40, 8, 114);
+    width: 50%;
+    border: 5px solid black;
+
+}
+div.muta1, div.mutp1{
+
+    background-color: rgb(13, 89, 124);
+    top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 0 0 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+p.description{
+    background-color: rgb(94, 33, 173);
+    color: black;
+    height: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 0 0 0;
+}
+div.coin{
+    font-size: 20px;
+    
+}
+button.money{
+    border: grey;
+    background-color: rgb(40, 8, 114);
+    margin-top: 5%;
+}
+button.buybuttona1, button.buybuttonp1{
+    background-color: rgb(86, 75, 189);
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 25px;
+}
+div.info{
+ background-color: rgb(99, 99, 170);
+ border-bottom: 5px solid black;
+ height: 15%;
+ margin-top: 0;
+ margin-bottom: 0;
+ padding:  0 0 0;
+}
